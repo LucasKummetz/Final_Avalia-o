@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InovaWeb - Criação de Sites</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+                <div class="wheel"></div>
+                <div class="hamster">
+                    <div class="hamster__body">
+                        <div class="hamster__head">
+                            <div class="hamster__ear"></div>
+                            <div class="hamster__eye"></div>
+                            <div class="hamster__nose"></div>
+                        </div>
+                        <div class="hamster__limb hamster__limb--fr"></div>
+                        <div class="hamster__limb hamster__limb--fl"></div>
+                        <div class="hamster__limb hamster__limb--br"></div>
+                        <div class="hamster__limb hamster__limb--bl"></div>
+                        <div class="hamster__tail"></div>
+                    </div>
+                </div>
+                <div class="spoke"></div>
+            </div>
+
+
+            <a class="navbar-brand" href="#">InovaWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="hero text-center d-flex flex-column justify-content-center align-items-center" id="home">
+        <h1>Bem-vindo à InovaWeb!</h1>
+        <p>Transforme sua presença digital com nossos serviços de criação de sites.</p>
+        <a href="#sobre" class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+            <span class="text">Quem Somos</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+        </a>
+    </header>
+    
+    <!-- Sobre Nós Section -->
+    <section class="py-5" id="sobre">
+        <div class="container text-center">
+            <h2>Quem Somos</h2>
+            <p>InovaWeb é uma Agência de criação de sites e plataformas digitais para empresas.
+                Especializados em projetar, desenvolver e gerenciar sites profissionais.</p>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="terno.jpg" class="card-img-top team-member" alt="Membro da Equipe">
+                        <div class="card-body">
+                            <h5 class="card-title">João Silva</h5>
+                            <p class="card-text">Desenvolvedor Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="terno2.jpg" class="card-img-top team-member" alt="Membro da Equipe">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedro Oliveira</h5>
+                            <p class="card-text">Designer Gráfico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="terno3.jpg" class="card-img-top team-member" alt="Membro da Equipe">
+                        <div class="card-body">
+                            <h5 class="card-title">Matheus Pereira</h5>
+                            <p class="card-text">Especialista em Marketing Digital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="py-5 " id="servicos">
+        <div class="container">
+            <h2 class="text-center">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <h5>Criação de Sites</h5>
+                    <p>Desenvolvemos sites personalizados e responsivos.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Otimização SEO</h5>
+                    <p>Melhoramos a visibilidade do seu site nos motores de busca.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Marketing Digital</h5>
+                    <p>Criamos estratégias de marketing para aumentar sua presença online.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Suporte Técnico</h5>
+                    <p>Oferecemos suporte contínuo para seus projetos.</p>
+                </div>
+            </div>
+
+            <section class="pricing" id="servicos">
+                <h2 class="text-center">Tabela de Preços</h2>
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Criação de Sites</td>
+                            <td>R$ 1.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Otimização SEO</td>
+                            <td>R$ 800,00</td>
+                        </tr>
+                        <tr>
+                            <td>Marketing Digital</td>
+                            <td>R$ 1.200,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-5" id="blog">
+        <div class="container">
+            <h2 class="text-center">Artigos do Blog</h2>
+            <div class="mt-4">
+                <h5>Entendendo HTML</h5>
+                <p>HTML é a linguagem de marcação padrão para criar páginas web...</p>
+                <a href="#" class="btn btn-link">Leia mais</a>
+            </div>
+            <div class="mt-4">
+                <h5>Introdução ao CSS</h5>
+                <p>CSS é a linguagem que descreve a apresentação de documentos HTML...</p>
+                <a href="#" class="btn btn-link">Leia mais</a>
+            </div>
+            <div class="mt-4">
+                <h5>Aprendendo JavaScript</h5>
+                <p>JavaScript é uma linguagem de programação que permite implementar funcionalidades complexas em páginas web...</p>
+                <a href="#" class="btn btn-link">Leia mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contact" id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+
+    <!-- FAQ Section -->
+    <section class="py-5" id="faq">
+        <div class="container">
+            <h2 class="text-center">Perguntas Frequentes</h2>
+            <div class="mt-4">
+                <h5>1. Quais serviços vocês oferecem?</h5>
+                <p>Oferecemos criação de sites, otimização SEO, marketing digital, entre outros.</p>
+            </div>
+            <div class="mt-4">
+                <h5>2. Como posso entrar em contato?</h5>
+                <p>Você pode nos contatar pelo formulário na página de contato.</p>
+            </div>
+            <div class="mt-4">
+                <h5>3. Vocês oferecem suporte técnico?</h5>
+                <p>Sim, oferecemos suporte contínuo para todos os nossos clientes.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 InovaWeb. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
